@@ -1,0 +1,385 @@
+/**********************************************
+
+		Animaciones Mapa Animado SV 
+
+***********************************************/
+.contenedor_exterior.tema_general .contenedor_secundario{
+  border-bottom: 3px solid #B40431;
+  background: #FFFFFF;
+}
+
+.contenedor_exterior.tema_general.mapaSV-top .indicador_contenedor_bordes{
+	border-top-color: #50E3C2;
+}
+
+.contenedor_exterior.tema_general.mapaSV-bottom .indicador_contenedor_bordes{
+	border-bottom-color: #FFFFFF;
+}
+
+.contenedor_exterior.tema_general.mapaSV-left .indicador_contenedor_bordes{
+	border-left-color: #FFFFFF;
+}
+
+.contenedor_exterior.tema_general.mapaSV-right
+.indicador_contenedor_bordes{
+	border-right-color: #FFFFFF;
+}
+
+.contenedor_exterior.tema_general .informacion_departamentos{
+	color: #000000;
+	padding: 0;
+}
+
+.contenedor_exterior.tema_general .contenedor_secundario{
+	padding: 0;
+	border-radius: 10px 10px 10px 10px;
+	-o-border-radius: 10px 10px 10px 10px;
+	-ms-border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-bottom: 3px solid #B40431;
+	background: #45484d;
+	background: -ms-radial-gradient(center, ellipse cover, #45484d 0%, #000000 100%);
+	background: -o-radial-gradient(center, ellipse cover, #45484d 0%, #000000 100%);
+	background: -moz-radial-gradient(center, ellipse cover, #45484d 0%, #000000 100%);
+	background: -webkit-radial-gradient(center, ellipse cover, #45484d 0%,#000000 100%);
+	background: radial-gradient(ellipse at center, #45484d 0%,#000000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+	-webkit-box-shadow: 3px 11px 23px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 11px 23px -6px rgba(0,0,0,0.75);
+	box-shadow: 3px 11px 23px -6px rgba(0,0,0,0.75);
+	font-family: 'Raleway', sans-serif;
+	animation: animacion_elementos_especificos ease 1s;
+	animation-iteration-count: 1;
+	transform-origin: 50% 50%;
+	animation-fill-mode:forwards;
+	-webkit-animation: animacion_elementos_especificos ease 1s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-transform-origin: 50% 50%;
+	-webkit-animation-fill-mode:forwards; 
+	-moz-animation: animacion_elementos_especificos ease 1s;
+	-moz-animation-iteration-count: 1;
+	-moz-transform-origin: 50% 50%;
+	-moz-animation-fill-mode:forwards;
+	-o-animation: animacion_elementos_especificos ease 1s;
+	-o-animation-iteration-count: 1;
+	-o-transform-origin: 50% 50%;
+	-o-animation-fill-mode:forwards;
+	-ms-animation: animacion_elementos_especificos ease 1s;
+	-ms-animation-iteration-count: 1;
+	-ms-transform-origin: 50% 50%;
+	-ms-animation-fill-mode:forwards;
+
+}
+
+.contenedor_exterior.tema_general.mapaSV-top .contenedor_secundario{
+	margin-bottom: 0.5em;
+}
+
+.contenedor_exterior.tema_general .informacion_departamentos{
+	padding: 0.4em 0.7em;
+	color: #FFFFFF;
+}
+
+.contenedor_exterior.tema_general .indicador_contenedor_fondo{
+	display: none;
+}
+
+.contenedor_exterior.tema_general.mapaSV-bottom .indicador_contenedor_bordes{
+	border-bottom-color: #B40431;
+	animation: animacion_elementos_especificos ease 1s;
+	animation-iteration-count: 1;
+	transform-origin: 50% 50%;
+	animation-fill-mode:forwards;
+	-webkit-animation: animacion_elementos_especificos ease 1s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-transform-origin: 50% 50%;
+	-webkit-animation-fill-mode:forwards; 
+	-moz-animation: animacion_elementos_especificos ease 1s;
+	-moz-animation-iteration-count: 1;
+	-moz-transform-origin: 50% 50%;
+	-moz-animation-fill-mode:forwards;
+	-o-animation: animacion_elementos_especificos ease 1s;
+	-o-animation-iteration-count: 1;
+	-o-transform-origin: 50% 50%;
+	-o-animation-fill-mode:forwards;
+	-ms-animation: animacion_elementos_especificos ease 1s;
+	-ms-animation-iteration-count: 1;
+	-ms-transform-origin: 50% 50%;
+	-ms-animation-fill-mode:forwards;
+}
+
+.contenedor_exterior.tema_general.mapaSV-left .indicador_contenedor_bordes{
+	border-left-color: #B40431;
+	animation: animacion_elementos_especificos ease 1s;
+	animation-iteration-count: 1;
+	transform-origin: 50% 50%;
+	animation-fill-mode:forwards;
+	-webkit-animation: animacion_elementos_especificos ease 1s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-transform-origin: 50% 50%;
+	-webkit-animation-fill-mode:forwards; 
+	-moz-animation: animacion_elementos_especificos ease 1s;
+	-moz-animation-iteration-count: 1;
+	-moz-transform-origin: 50% 50%;
+	-moz-animation-fill-mode:forwards;
+	-o-animation: animacion_elementos_especificos ease 1s;
+	-o-animation-iteration-count: 1;
+	-o-transform-origin: 50% 50%;
+	-o-animation-fill-mode:forwards;
+	-ms-animation: animacion_elementos_especificos ease 1s;
+	-ms-animation-iteration-count: 1;
+	-ms-transform-origin: 50% 50%;
+	-ms-animation-fill-mode:forwards;
+}
+
+.contenedor_exterior.tema_general.mapaSV-right .indicador_contenedor_bordes{
+	border-right-color: #B40431;
+	animation: animacion_elementos_especificos ease 1s;
+	animation-iteration-count: 1;
+	transform-origin: 50% 50%;
+	animation-fill-mode:forwards;
+	-webkit-animation: animacion_elementos_especificos ease 1s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-transform-origin: 50% 50%;
+	-webkit-animation-fill-mode:forwards; 
+	-moz-animation: animacion_elementos_especificos ease 1s;
+	-moz-animation-iteration-count: 1;
+	-moz-transform-origin: 50% 50%;
+	-moz-animation-fill-mode:forwards;
+	-o-animation: animacion_elementos_especificos ease 1s;
+	-o-animation-iteration-count: 1;
+	-o-transform-origin: 50% 50%;
+	-o-animation-fill-mode:forwards;
+	-ms-animation: animacion_elementos_especificos ease 1s;
+	-ms-animation-iteration-count: 1;
+	-ms-transform-origin: 50% 50%;
+	-ms-animation-fill-mode:forwards;
+}
+
+.contenedor_exterior.tema_general.mapaSV-top .indicador_contenedor_bordes{
+	border-top-color: #B40431;
+	animation: animacion_elementos_especificos ease 1s;
+	animation-iteration-count: 1;
+	transform-origin: 50% 50%;
+	animation-fill-mode:forwards;
+	-webkit-animation: animacion_elementos_especificos ease 1s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-transform-origin: 50% 50%;
+	-webkit-animation-fill-mode:forwards; 
+	-moz-animation: animacion_elementos_especificos ease 1s;
+	-moz-animation-iteration-count: 1;
+	-moz-transform-origin: 50% 50%;
+	-moz-animation-fill-mode:forwards;
+	-o-animation: animacion_elementos_especificos ease 1s;
+	-o-animation-iteration-count: 1;
+	-o-transform-origin: 50% 50%;
+	-o-animation-fill-mode:forwards;
+	-ms-animation: animacion_elementos_especificos ease 1s;
+	-ms-animation-iteration-count: 1;
+	-ms-transform-origin: 50% 50%;
+	-ms-animation-fill-mode:forwards;
+}
+
+.contenedor_informacion{
+	position: absolute;
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -o-flex;
+	display: -ms-flex;
+	pointer-events: none;
+}
+
+.contenedor_secundario{
+	flex: 1 1 auto;
+	-webkit-flex: 1 1 auto;
+	-moz-flex: 1 1 auto;
+	-o-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+}
+
+.mapaSV-fade{
+	opacity: 0;
+	-webkit-transition-property: opacity;
+	-moz-transition-property: opacity;
+	-o-transition-property: opacity;
+	-ms-transition-property: opacity;
+	transition-property: opacity;
+}
+
+.mapaSV-fade.mapaSV-show{
+	opacity: 1;
+}
+
+.contenedor_exterior .contenedor_secundario{
+	background: #565656;
+	border: 2px solid #000;
+	border-radius: 4px 4px 4px 4px;
+	-o-border-radius: 4px 4px 4px 4px;
+	-ms-border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+}
+
+.contenedor_exterior.mapaSV-bottom .contenedor_secundario{
+	margin-top: 0.6em;
+}
+
+.contenedor_exterior.mapaSV-left .contenedor_secundario{
+	margin-right: 0.6em;
+}
+
+.contenedor_exterior.mapaSV-right .contenedor_secundario{
+	margin-left: 0.6em;
+}
+
+.contenedor_exterior.mapaSV-top .contenedor_secundario{
+	margin-bottom: 0.6em;
+}
+
+.contenedor_exterior .informacion_departamentos{
+	padding: 0.6px 1em;
+	color: #FFFFFF;
+	line-height: 1.2em;
+}
+
+.contenedor_exterior .indicador_contenedor{
+	position: absolute;
+	overflow: hidden;
+}
+
+.contenedor_exterior.mapaSV-bottom .indicador_contenedor{
+	margin-left: -1.1em;
+	width: 20px;
+	height: 10px;
+	top: 0;
+}
+
+.contenedor_exterior.mapaSV-left .indicador_contenedor{
+	margin-top: -1.1em;
+	width: 10px;
+	height: 20px;
+	right: 0;
+	top: 0;
+}
+
+.contenedor_exterior.mapaSV-right .indicador_contenedor{
+	margin-top: -1.1em;
+	width: 10px;
+	height: 20px;
+	left: 0;
+	top: 0;
+}
+
+.contenedor_exterior.mapaSV-top .indicador_contenedor{
+	margin-left: -1.1em;
+	width:20px;
+	height: 10px;
+	bottom: 0;
+}
+
+.contenedor_exterior .indicador_contenedor_fondo,.contenedor_exterior .indicador_contenedor_bordes{
+	position: absolute;
+	width: auto;
+	height: auto;
+}
+
+.contenedor_exterior .indicador_contenedor_fondo{
+	border: 10px solid transparent;
+}
+
+.contenedor_exterior.mapaSV-bottom .indicador_contenedor_fondo{
+	border-bottom-color: #565656;
+	left: 0;
+	top: 0.5em;
+}
+
+.contenedor_exterior.mapaSV-left .indicador_contenedor_fondo{
+	border-left-color: #565656;
+	left: -0.4em;
+	top: 0;
+}
+
+.contenedor_exterior.mapaSV-right .indicador_contenedor_fondo{
+	border-right-color: #565656;
+	left: 0.4em;
+	top: 0;
+}
+
+.contenedor_exterior.mapaSV-top .indicador_contenedor_fondo{
+	border-top-color: #565656;
+	left: 0;
+	top: -0.4em;
+}
+
+.contenedor_exterior .indicador_contenedor_bordes{
+	border: 10px solid transparent;
+	left: 0;
+	top: 0;
+}
+
+.contenedor_exterior.mapaSV-bottom .indicador_contenedor_bordes{
+	border-bottom-color: #000;
+}
+
+.contenedor_exterior.mapaSV-left .indicador_contenedor_bordes{
+	border-left-color: #000;
+}
+
+.contenedor_exterior.mapaSV-right .indicador_contenedor_bordes{
+	border-right-color: #000;
+}
+
+.contenedor_exterior.mapaSV-top .indicador_contenedor_bordes{
+	border-top-color: #000;
+}
+
+.contenedor_exterior .indicador_contenedor_flecha{
+	position: relative;
+}
+
+.contenedor_exterior.mapaSV-bottom .indicador_contenedor_flecha{
+	top: -0.7em;
+}
+
+.contenedor_exterior.mapaSV-right .indicador_contenedor_flecha{
+	left: -0.7em;
+}
+
+p.titulo_central{
+	text-align: center;
+	color: #FE642E;
+	font-size: 1.1em;
+}
+
+p.info_general{
+	text-align: justify;
+	color: #FE642E;
+	font-size: 1em;
+}
+
+path.departamentos_SV{
+	fill: #424242;
+	stroke: #FFFFFF;
+	transition: all 0.7s;
+	-webkit-transition: all 0.7s;
+	-moz-transition: all 0.7s;
+	-ms-transition: all 0.7s;
+	-o-transition: all 0.7s;
+	cursor: help;
+}
+
+path.departamentos_SV:hover{
+	fill: #6E6E6E;
+	stroke: #B40431;
+	transition: all 0.7s;
+	-webkit-transition: all 0.7s;
+	-moz-transition: all 0.7s;
+	-ms-transition: all 0.7s;
+	-o-transition: all 0.7s;
+}
+
+path.departamentos_SV:active{
+	cursor: pointer;
+}
