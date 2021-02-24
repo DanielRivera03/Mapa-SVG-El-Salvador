@@ -1,9 +1,14 @@
 <!--
-    Mapa Animado de El Salvador SVG
-    Autor: Daniel Rivera
-    © 2017 - 2018
-    Importante: para abrir los respectivos archivos .SVG, es necesario que tenga instalado de preferencia
-    el editor de gráficos vectoriales Inkscape u otro similar que sea de su preferencia.
+*************************************************
+        MAPA ANIMADO DE EL SALVADOR 
+*************************************************
+* AUTOR: DANIEL RIVERA (danielrivera03)
+* GITHUB: https://github.com/DanielRivera03    
+* TECNOLOGIAS: HTML5, CSS / CSS3, JAVASCRIPT, JQUERY
+***************************************************
+
+-> TOMAR NOTA: PARA EDITAR ESTE MAPA, USTED DEBE USAR UN EDITOR DE GRAFICOS VECTORIALES 
+(INKSAPE EN ESTE CASO) U OTRO QUE USTED CONSIDERE  OPORTUNO.
 -->
 <!DOCTYPE html>
 <html lang="ES-SV">
@@ -11,9 +16,10 @@
     <!-- Codificacion de Web -->
 	<meta charset="UTF-8">
     <!-- Titulo Barra General -->
-	<title>Mapa Animado de El Salvador | SVG</title>
+	<title>Ministerio de Turismo de El Salvador | P&aacute;gina Principal</title>
     <!-- Hojas de Estilos En Cascada (CSS) -->
 	<link rel="stylesheet" type="text/css" href="css/estilos-generales.css">
+	<link rel="stylesheet" type="text/css" href="css/responsivo.css">
     <link rel="stylesheet" type="text/css" href="css/animaciones_mapaSV.css">
     <!-- Fuentes Personalizadas -->
     <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text" rel="stylesheet">
@@ -22,23 +28,51 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="ico">
     <!-- Metas Responsivo -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Metas Generales -->
+	<meta name="keywords" content="Mitur, El Salvador, Turismo, Centroamerica">
+	<meta name="description" content="Bienvenidos a MITUR El Salvador, p&aacute;gina oficial del Ministerio de turismo de la Rep&uacute;blica de El Salvador Centroam&eacute;rica">
+    <meta name="author" content="MITUR El Salvador">
 </head>
 <body>
 <div class="arriba"></div> <!-- Boton top animado para ir hacia arriba -->
 <!-- Redes Sociales -->
 <div class="redes-sociales">
-    <a href="#" target="_blank" title="S&iacute;guenos en Facebook"><div class="fb"></div></a> <!-- FACEBOOK -->
-    <a href="#" target="_blank" title="S&iacute;guenos en Youtube"><div class="yt"></div></a> <!-- YOUTUBE -->
-    <a href="#" target="_blank" title="S&iacute;guenos en Twitter"><div class="tw"></div></a> <!-- TWITTER -->
+    <a href="https://www.facebook.com/MITURElSalvador/" target="_blank" title="S&iacute;guenos en Facebook"><div class="fb"></div></a> <!-- FACEBOOK -->
+    <a href="https://www.youtube.com/channel/UCdXJsUchhGTySSflB9fONNQ" target="_blank" title="S&iacute;guenos en Youtube"><div class="yt"></div></a> <!-- YOUTUBE -->
+    <a href="https://twitter.com/miturelsalvador?lang=es" target="_blank" title="S&iacute;guenos en Twitter"><div class="tw"></div></a> <!-- TWITTER -->
 </div> <!-- Fin Redes Sociales -->    
 <div class="contenedor_general"> 
     <header>
-        <!-- Puede aplicar mas elementos -->
-        <h2>Proyecto: Mapa Totalmente Animado de El Salvador</h2>
+        <div class="logo">
+            <img src="img/logo.png" title="MITUR El Salvador" alt="Logo MITUR El Salvador">
+        </div><!-- Cierre Logo MITUR -->
+        <div id="menu_responsivo" onclick="control_menu('menu_MITUR')"> <!-- Evento onclick unicamente funcional en menu con resolucion menor a 1024 px -->
+            <a href="#"><img src="img/icono-menu-responsivo.png" title="Bot&oacute;n Men&uacute; Responsivo" alt="Bot&oacute;nn Men&uacute; Responsivo"></a>
+        </div><!-- Cierre Menu Responsivo -->
+        <ul id="menu_MITUR">
+            <li><a class="menu_activo" href="#">Inicio</a></li>
+            <li><a href="#enlace_control_mapa_animado">Mapa Animado</a></li>
+            <li><a href="#">Cont&aacute;ctanos</a></li>
+        </ul><!-- Cierre Lista de Opciones Menu MITUR -->
     </header><!-- Cierre Header -->
 	<div class="banner">
-		<h1 class="titulo_principal">Bienvenido(a)</h1>
+		<h1 class="titulo_principal">Mapa Animado El Salvador</h1>
 	</div><!-- Cierre Banner -->
+	<div class="sub-contenedor">
+		<h2 class="titulos_sub-contenedor">Pr&oacute;logo Inicial:</h2>
+		<aside class="contenedor_servicios">
+			<p>Estimado usuario(a) gracias por visitar y obtener este repositorio. Bienvenido de antemano, este proyecto fue realizado con fines educativos, por favor si haces uso de &eacute;l, agradecer&eacute; que mantengas los cr&eacute;ditos del mismo.<strong> Valoremos el trabajo de otros desarrolladores</strong></strong><br><br>En este proyecto encontrar&aacute;s un mapa 
+            totalmente animado de nuestro pa&iacute;s con informaci&oacute;n general y espec&iacute;fica de cada uno de los 14 departamentos que conforman nuestro pa&iacute;s El Salvador
+            ubicado en Am&eacute;rica Central. Nuestro sitio web es totalmente adaptable a dispositivos m&oacute;viles.</p>
+            <!-- AREA DESARROLLADORES -->
+			<article class="servicio01"><a href="#"><img class="img-servicios" src="img/servicio01.jpg" title="&Aacute;rea Desarrolladores" alt="&Aacute;rea Desarrolladores"></a></article>
+            <!-- AREA CONTACTANOS -->
+			<article class="servicio02"><a href="#"><img class="img-servicios" src="img/servicio02.jpg" title="&Aacute;rea Cont&aacute;ctanos" alt="&Aacute;rea Cont&aacute;ctanos"></a></article>
+            <!-- MISION Y VISION E HISTORIA -->
+			<article class="servicio03"><a href="#"><img class="img-servicios" src="img/servicio03.jpg" title="Registro / Iniciar Sesi&oacute;n" alt="Registro / Iniciar Sesi&oacute;n"></a></article>
+		</aside><!-- Cierre Contenedor Servicios -->
+	</div><!-- Cierre Sub Contenedor -->
+    <a name="enlace_control_mapa_animado"></a> <!-- Enlace de Control Para Mapa Animado Desde Menu de Navegacion -->
 	<div class="mapa_SV">
 		<h1 class="titulo_principal_mapaSV">Mapa Animado de El Salvador</h1>
 		<!-- Definiendo estilos a mapa SV svg -->
@@ -52,7 +86,7 @@
 			**************************************************************
 			**************************************************************
      	-->
-     	<a href="#"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de Santa Ana</p><p class='info_general'>Cabecera: Santa Ana.
+     	<a href="santa-ana.html"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de Santa Ana</p><p class='info_general'>Cabecera: Santa Ana.
                 <br>Extensi&oacute;n Territorial: 2,023 km&#178;.<br>Fiestas Patronales: 17 al 26 de Julio.<br>Patrono: Se&ntilde;ora Santa Ana.
                 <br>Poblaci&oacute;n Total: 523,655 Habitantes.<br>Densidad Poblacional: 258.83hab/km&#178;.</p>"
                 d="m 503.92543,563.33208 c -0.70168,-0.8455 -0.85903,-3.5729 -0.43834,-7.5978 0.54696,-5.2331 1.14328,
@@ -113,7 +147,7 @@
             **************************************************************
             **************************************************************
         -->
-        <a href="#"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de Ahuachap&aacute;n</p><p class='info_general'>Cabecera: Ahuachap&aacute;n.
+        <a href="ahuachapan.html"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de Ahuachap&aacute;n</p><p class='info_general'>Cabecera: Ahuachap&aacute;n.
                 <br>Extensi&oacute;n Territorial: 244.84 km&#178;.<br>Fiestas Patronales: 17 de Febrero al 5 de Marzo.<br>Patrono: Dulce Nombre de Jes&uacute;s.
                 <br>Poblaci&oacute;n Total: 116,948 Habitantes.<br>Densidad Poblacional: 477.65hab/km&#178;.</p>"
                 d="m 144.19384,638.46828 c 17.0954,-16.7439 20.31714,-19.5569 23.8213,-20.7986 4.48615,-1.5898 5.51267,-0.9249 9.95785,
@@ -155,7 +189,7 @@
             **************************************************************
             **************************************************************
         -->
-        <a href="#"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de Sonsonate</p><p class='info_general'>Cabecera: Sonsonate.
+        <a href="sonsonate.html"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de Sonsonate</p><p class='info_general'>Cabecera: Sonsonate.
                 <br>Extensi&oacute;n Territorial: 232.53 km&#178;.<br>Fiestas Patronales: 25 de Febrero al 2 de Marzo.<br>Patrono: Virgen de Candelaria.
                 <br>Poblaci&oacute;n Total: 110,501 Habitantes.<br>Densidad Poblacional: 307.6hab/km&#178;.</p>" 
                 d="m 390.93112,761.96828 c 1.83354,-3.247 9.07776,-11.8442 16.64191,-19.75 7.36724,-7.7 13.92665,-14.5986 14.57646,
@@ -200,7 +234,7 @@
             **************************************************************
             **************************************************************
         -->
-        <a href="#"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de La Libertad.</p><p class='info_general'>Cabecera: Santa Tecla.
+        <a href="la-libertad.html"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de La Libertad.</p><p class='info_general'>Cabecera: Santa Tecla.
                 <br>Extensi&oacute;n Territorial: 1,653 km&#178;.<br>Fiestas Patronales: 1 al 8 de Diciembre.<br>Patrono: Inmaculada Concepci&oacute;n de Mar&iacute;a.
                 <br>Poblaci&oacute;n Total: 842,624 Habitantes.<br>Densidad Poblacional: 509.79hab/km&#178;.</p>"
                 d="m 742.83097,842.27358 c 0,-0.7297 0.67223,-2.6156 1.49384,-4.191 2.0633,-3.9562 1.87798,-7.0949 -0.49384,-8.3643 -1.1,
@@ -255,7 +289,7 @@
             **************************************************************
             **************************************************************
         -->   
-        <a href="#"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de Chalatenango</p><p class='info_general'>Cabecera: Chalatenango.
+        <a href="chalatenango.html"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de Chalatenango</p><p class='info_general'>Cabecera: Chalatenango.
                 <br>Extensi&oacute;n Territorial: 2,017 km&#178;.<br>Fiestas Patronales: 16 al 24 de Junio.<br>Patrono: San Juan Bautista.
                 <br>Poblaci&oacute;n Total: 274,878 Habitantes.<br>Densidad Poblacional: 136.31hab/km&#178;.</p>"
                 d="m 955.33097,449.71828 c 1.65005,-1.0928 4.31455,-1.9898 5.92125,-1.9934 3.0062,-0.01 6.5788,-2.43165 6.5788,-4.46535 0,
@@ -317,7 +351,7 @@
             **************************************************************
             **************************************************************
         -->
-         <a href="#"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de San Salvador</p><p class='info_general'>Capital de El Salvador.
+         <a href="san-salvador.html"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de San Salvador</p><p class='info_general'>Capital de El Salvador.
                 <br>Cabecera: San Salvador.<br>Extensi&oacute;n Territorial: 886.15 km&#178;.<br>Fiestas Patronales: 1 al 6 de Agosto.<br>Patrono: Divino Salvador del Mundo.
                 <br>Poblaci&oacute;n Total: 2,266,387 Habitantes.<br>Densidad Poblacional: 2,557.42hab/km&#178;.</p>"
                 d="m 711.23612,792.90548 c 3.76883,-7.4375 4.55003,-7.8098 11.87653,-5.6604 3.42008,1.0033 6.66832,2.1319 7.21832,2.508 2.0368,
@@ -364,7 +398,7 @@
             **************************************************************
             **************************************************************
         --> 
-        <a href="#"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de Cuscatl&aacute;n</p><p class='info_general'>Cabecera: Cojutepeque.
+        <a href="cuscatlan.html"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de Cuscatl&aacute;n</p><p class='info_general'>Cabecera: Cojutepeque.
                 <br>Extensi&oacute;n Territorial: 756 km&#178;.<br>Fiestas Patronales: 3era y 4a Semana de Enero y 3era y 4a Semana de Agosto.<br>Patrono: San Sebasti&aacute;n M&aacute;rtir
                 e Inmaculada Virgen de Concepci&oacute;n.
                 <br>Poblaci&oacute;n Total: 216,446 Habitantes.<br>Densidad Poblacional: 286.23hab/km&#178;.</p>"
@@ -401,7 +435,7 @@
             **************************************************************
             **************************************************************
         -->
-        <a href="#"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de La Paz</p><p class='info_general'>Cabecera: Zacatecoluca.
+        <a href="la-paz.html"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de La Paz</p><p class='info_general'>Cabecera: Zacatecoluca.
                 <br>Extensi&oacute;n Territorial: 1,223.61 km&#178;.<br>Fiestas Patronales: 13 al 27 de Diciembre.<br>Patrono: Santa Luc&iacute;a, Nuestra Se&ntilde;ora de los Pobres.
                 <br>Poblaci&oacute;n Total: 288,022 Habitantes.<br>Densidad Poblacional: 293.70hab/km&#178;.</p>"
                 d="m 987.76019,962.96826 c 4.9716,-17.2894 14.40361,-30.1153 26.04721,-35.4193 3.5621,-1.6226 6.6385,-3.1123 6.8366,-3.3104 0.1981,
@@ -444,7 +478,7 @@
             **************************************************************
             **************************************************************
         -->
-        <a href="#"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de Caba&ntilde;as</p><p class='info_general'>Cabecera: Sensuntepeque.
+        <a href="cabanas.html"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de Caba&ntilde;as</p><p class='info_general'>Cabecera: Sensuntepeque.
                 <br>Extensi&oacute;n Territorial: 1,103.51 km&#178;.<br>Fiestas Patronales: 25 de Noviembre al 5 de Diciembre.<br>
                 Patrono: Santa B&aacute;rbara.
                 <br>Poblaci&oacute;n Total: 214,150 Habitantes.<br>Densidad Poblacional: 135hab/km&#178;.</p>"
@@ -488,7 +522,7 @@
             **************************************************************
             **************************************************************
         -->
-        <a href="#"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de San Vicente</p><p class='info_general'>Cabecera: San Vicente.
+        <a href="san-vicente.html"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de San Vicente</p><p class='info_general'>Cabecera: San Vicente.
                 <br>Extensi&oacute;n Territorial: 1,184 km&#178;.<br>Fiestas Patronales: 12 al 31 de Diciembre.<br>Patrono: San Vicente Abad.
                 <br>Poblaci&oacute;n Total: 230,205 Habitantes.<br>Densidad Poblacional: 194.43hab/km&#178;.</p>"
                 d="m 1010.8254,979.96826 c 0,-0.4125 -0.4094,-2.325 -0.9029,-4.25 -2.2572,-8.8037 -2.2911,-8.5678 2.0152,-14.0158 2.5399,
@@ -533,7 +567,7 @@
             **************************************************************
             **************************************************************
         -->  
-        <a href="#"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de Usulut&aacute;n</p><p class='info_general'>Cabecera: Usulut&aacute;n.
+        <a href="usulutan.html"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de Usulut&aacute;n</p><p class='info_general'>Cabecera: Usulut&aacute;n.
                 <br>Extensi&oacute;n Territorial: 2,130 km&#178;.<br>Fiestas Patronales: 17 al 26 de Noviembre.<br>Patrono: Santa Catarina de Alejandr&iacute;a.
                 <br>Poblaci&oacute;n Total: 464,883 Habitantes.<br>Densidad Poblacional: 218.21hab/km&#178;.</p>"
                 d="m 1473.3696,1047.5311 c 3.728,-2.0584 5.4341,-2.2053 28.9595,-2.4944 13.749,-0.1689 25.1112,-0.6471 25.2493,-1.0627 0.1382,
@@ -605,7 +639,7 @@
             **************************************************************
             **************************************************************
         --> 
-        <a href="#"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de San Miguel</p><p class='info_general'>Cabecera: San Miguel.
+        <a href="san-miguel.html"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de San Miguel</p><p class='info_general'>Cabecera: San Miguel.
                 <br>Extensi&oacute;n Territorial: 2,077 km&#178;.<br>Fiestas Patronales: 21 de Noviembre.<br>Patrono: Nuestra Se&ntilde;ora de La Paz.
                 <br>Poblaci&oacute;n Total: 546,022 Habitantes.<br>Densidad Poblacional: 262.88hab/km&#178;.</p>"
                 d="m 1536.3499,1042.0234 c 0.8839,-1.2088 3.154,-1.8168 7.9158,-2.12 7.3924,-0.4708 8.7653,-1.5888 10.0513,-8.1851 0.3753,
@@ -670,7 +704,7 @@
             **************************************************************
             **************************************************************
         --> 
-        <a href="#"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de Moraz&aacute;n</p><p class='info_general'>Cabecera: San Francisco Gotera.
+        <a href="morazan.html"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de Moraz&aacute;n</p><p class='info_general'>Cabecera: San Francisco Gotera.
                 <br>Extensi&oacute;n Territorial: 1,447 km&#178;.<br>Fiestas Patronales: 1 al 4 de Octubre.<br>Patrono: San Francisco de Asis.
                 <br>Poblaci&oacute;n Total: 251,447 Habitantes.<br>Densidad Poblacional: 173.72hab/km&#178;.</p>"
                 d="m 1585.1667,738.26708 c 12.5596,-0.7674 24.3027,-1.1572 26.0957,-0.8662 2.8836,0.4679 3.76,0 7.5883,-4.0887 2.516,-2.6845 5.859,
@@ -710,7 +744,7 @@
             **************************************************************
             **************************************************************
         -->
-        <a href="#"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de La Uni&oacute;n</p><p class='info_general'>Cabecera: La Uni&oacute;n.
+        <a href="la-union.html"><path class="departamentos_SV" title="<p class='titulo_central'>Departamento de La Uni&oacute;n</p><p class='info_general'>Cabecera: La Uni&oacute;n.
                 <br>Extensi&oacute;n Territorial: 2074 km&#178;.<br>Fiestas Patronales: 1 al 15 de Diciembre.<br>Patrono: La Inmaculada Concepci&oacute;n de Mar&iacute;a.
                 <br>Poblaci&oacute;n Total: 372,271 Habitantes.<br>Densidad Poblacional: 179.47hab/km&#178;.</p>"
                 d="m 1698.3047,1051.7609 c 0.3254,-0.5266 -0.7062,-1.6286 -2.2926,-2.4489 -4.1442,-2.1431 -9.1811,-8.2483 -9.1811,
@@ -888,12 +922,31 @@
                 </div><!-- Cierre Contenido Menu Desplegable -->   
             </div><!-- Cierre Menu Desplegable -->
         </div><!-- Cierre Contenedor Menu Desplegable -->  
-        <!-- Fin Menu desplegable dividido en las 3 zonas de El Salvador (Mapa SV) -->
+        <!-- Fin Menu desplegable dividido en las 3 zonas de El Salvador (Mapa SV) -->                                                            
 		</svg><!-- Cierre vectorizacion de imagen mapa SV -->
-	</div><!-- Cierre Mapa SV -->   
+	</div><!-- Cierre Mapa SV -->
+    <div class="info_telefono_mitur">
+        <h3>&#191;Dudas&#63;, &#191;Consultas&#63;, &#191;Sugerencias&#63;, Ll&aacute;manos:</h3>
+        <button class="telefono_mitur"><a href="tel:2243-7865">Tel&eacute;fono: (+503) 2243 - 7835</a></button>
+    </div><!-- Cierre Info Telefono MITUR -->    
 	<footer>
 		<div class="contenedor_footer">
-            <p>Copyright 2017 - 2018 Mapa Animado de El Salvador SVG</p>
+            <section class="footer_izq">
+                <h3>Nuestra Ubicaci&oacute;n</h3>
+                <!-- MAPA GOOGLE EMBEDIDO -->
+                <iframe class="G_SVmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.353984555502!2d-89.2295649845937!3d13.696997890382844!2m3!1f0!
+                2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63304766b02e03%3A0xf655165b3d16e7bb!2sMinisterio+de+Turismo+Y+CORSATUR!5e0!3m2!1ses!2ssv!4v1506285188005">
+                </iframe>
+            </section><!-- Cierre Section Contenedor Footer Izquierdo -->
+            <section class="footer_der">
+                <h3>Informaci&oacute;n Empresarial</h3>
+                <img src="img/logo.png" alt="MITUR EL Salvador" title="MITUR El Salvador">
+                <p>&copy; Copyright 2017 | Ministerio de Turismo de El Salvador (MITUR).</p>
+                <p>Prohibida la reproducci&oacute;n total y/o parcial del contenido de esta p&aacute;gina.</p>
+                <p>Direcci&oacute;n: Edificio Carbonel #1, Colonia Roma, Alameda Manuel<br>Enrique Araujo, 
+                Pasaje Carbonel, San Salvador, El Salvador.</p>
+                <p>Tel&eacute;fono: <a href="tel:2243-7835">(+503) 2243 - 7835</a>.</p>
+            </section><!-- Cierre Section Contenedor Footer Derecho -->
         </div><!-- Cierre Contenedor Footer -->  
 	</footer><!-- Cierre Footer -->
 </div><!-- Cierre Contenedor General -->
@@ -906,6 +959,7 @@
     4) Efecto TOP boton flotante (hacia arriba)
     5) Efecto PARALLAX para banner inicial y banner de informacion de telefono
     6) Menu desplegable (Mapa animado SV)
+    7) Control menu responsivo para dispositivos moviles
     
     !!!!! Orden de arriba hacia abajo !!!!!  
  -->    
@@ -915,5 +969,6 @@
 <script type="text/javascript" src="js/arriba.js"></script>
 <script type="text/javascript" src="js/parallax_efecto.js"></script>
 <script type="text/javascript" src="js/menu_desplegable.js"></script>
+<script type="text/javascript" src="js/control_menu_responsivo.js"></script>
 </body>
 </html>
